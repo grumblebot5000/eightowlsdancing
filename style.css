@@ -1,1 +1,10 @@
-
+.pokemonCard{
+	height: 400px;
+	width: 300px;
+}
+h2{
+	text-align: center;
+}
+.aligncenter{
+	text-align: center;
+}
