@@ -1,10 +1,103 @@
-.pokemonCard{
-	height: 400px;
-	width: 300px;
+body{
+	margin: 0;
 }
 h2{
 	text-align: center;
 }
-.aligncenter{
+a {
+	color: #FCA311;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+nav > span {
+	padding: 0 10px;
+	/*border: 1px solid red;*/
+}
+nav	{
+	align-items: center;
+	background-color: #14213D;
+	/*border: 1px solid #FCA311;*/
+	display: flex;
+	font-family: "SF Pro Text", monospace;
+	font-size: 1rem;
+	justify-content: flex-start;
+	padding: 0 1rem;
 	text-align: center;
+}
+.siteIcon{
+	border-radius: 50%;
+	height: 50px;
+	/*padding-right: 10em;*/
+}
+header{
+	border: 2px solid black;
+}
+
+header img {
+	/*height: 5em;*/
+	width: 100%;
+}
+.homePage{
+	background-color: #E5E5E5;
+}
+.homePage main p{
+	color: #14213D;
+	font-family: Palatino;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align:center;
+}
+table{
+	border-collapse: collapse;
+}
+caption{
+	display: none;
+}
+.cardRow td {
+	padding-top: 20px;
+}
+.cardsPage{
+	background-color: #587B7F;
+}
+.artPage{
+	background-color: #BFFFF1;
+}
+.pokemonDisplay{
+	text-align: center;
+	width: 100%;
+}
+.pokemonDisplay th {
+	background-color: #14213D;
+	border-top: 2px solid #FCA311;
+	color: #B6244F;
+	font-family: "Andale mono", monospace;
+	font-size: 3rem;
+	font-weight: bold;
+}
+.pokemonCard{
+	border: 1px solid black;
+}
+.cardTitle{
+	color: #BFFFF1;
+	font-family: "Andale mono", monospace;
+	font-size: 1.5em;
+}
+.artDisplay{
+	text-align: center;
+	width: 100%;
+}
+.artDisplay th {
+	background-color: #1B2432;
+	border-top: 2px solid #FCA311;
+	color: #B6244F;
+	font-family: "Andale mono", monospace;
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.artRow td{
+	padding-top: 20px;
 }
