@@ -13,18 +13,17 @@ a:hover{
 }
 nav > span {
 	padding: 0 10px;
-	/*border: 1px solid red;*/
 }
 nav	{
 	align-items: center;
 	background-color: #14213D;
-	/*border: 1px solid #FCA311;*/
 	display: flex;
 	font-family: "SF Pro Text", "Segoe UI", "Trebuchet MS",monospace;
 	font-size: 1rem;
 	justify-content: flex-start;
 	padding: 0 1rem;
 	text-align: center;
+	width: 100%;
 }
 .siteIcon{
 	border-radius: 50%;
@@ -48,9 +47,6 @@ header img {
 	font-size: 1.5em;
 	font-style: italic;
 	text-align:center;
-}
-table{
-	border-collapse: collapse;
 }
 caption{
 	display: none;
@@ -100,4 +96,8 @@ caption{
 }
 .artRow td{
 	padding-top: 20px;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
 }
